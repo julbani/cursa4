@@ -1,0 +1,1 @@
+[2020-06-11 13:06:54.752] [renderer1] [warning] UNRESPONSIVE extension host, 'vscode.css-language-features' took 100% of 801.477ms, saved PROFILE here: '/tmp/exthost-ec25a5.cpuprofile' [{"id":"vscode.css-language-features","total":801220,"percentage":100}]

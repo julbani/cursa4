@@ -1,0 +1,8 @@
+[2020-06-11 13:14:02.592] [sharedprocess] [info] main {"machineId":"29b8552bbc3de14746fb0676e53b4813dc2984d31008abfa0894414681dc5bf9","windowId":2}
+[2020-06-11 13:14:42.644] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-06-11 13:27:40.613] [sharedprocess] [info] Installing extension: felixfbecker.php-intellisense
+[2020-06-11 13:27:44.830] [sharedprocess] [info] Downloaded extension: felixfbecker.php-intellisense /tmp/a9d52d70-6900-4978-b4c5-d8f660e6e742
+[2020-06-11 13:27:49.620] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.felixfbecker.php-intellisense-2.3.14: felixfbecker.php-intellisense
+[2020-06-11 13:27:49.620] [sharedprocess] [info] Renamed to /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14
+[2020-06-11 13:27:49.623] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense
+[2020-06-11 13:27:49.770] [sharedprocess] [info] Extensions installed successfully: felixfbecker.php-intellisense

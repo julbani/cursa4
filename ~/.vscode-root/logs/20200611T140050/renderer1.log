@@ -1,0 +1,99 @@
+[2020-06-11 15:26:20.251] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3371:362)
+    at e._provideLinks (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4290:723)
+    at e.provideLinks (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3370:508)
+    at /snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-06-11 15:27:39.769] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3371:362)
+    at e._provideLinks (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4290:723)
+    at e.provideLinks (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3370:508)
+    at /snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-06-11 15:27:47.191] [renderer1] [error] Cannot read property 'getCell' of undefined: TypeError: Cannot read property 'getCell' of undefined
+    at Object.t.convertLinkRangeToBuffer (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3371:362)
+    at e._provideLinks (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4290:723)
+    at e.provideLinks (file:///snap/code/34/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3370:508)
+    at /snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242351
+    at Array.forEach (<anonymous>)
+    at t._askForLink (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:242213)
+    at t._onHover (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241908)
+    at t._onMouseMove (/snap/code/34/usr/share/code/resources/app/node_modules.asar/xterm/lib/xterm.js:1:241768)
+[2020-06-11 19:16:09.203] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:16:11.026] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:16:37.562] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:19:23.329] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:19:31.516] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:19:40.025] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:20:20.305] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-11 19:20:21.985] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62

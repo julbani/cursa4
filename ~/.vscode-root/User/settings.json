@@ -1,0 +1,24 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "files.autoSave": "afterDelay",
+    "emmet.preferences": {
+
+        "format.forceIndentationForTags": [
+            "body",
+            "div",
+            "nav",
+            "table",
+            "thead",
+            "tbody",
+            "tfoot",
+            "header",
+            "ul",
+            "ol",
+            "section",
+            "footer",
+            "form"
+        ]
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
+}
