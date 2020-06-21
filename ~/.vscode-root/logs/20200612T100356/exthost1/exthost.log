@@ -1,0 +1,80 @@
+[2020-06-12 10:04:06.355] [exthost] [info] extension host started
+[2020-06-12 10:04:06.418] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2020-06-12 10:04:06.418] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2020-06-12 10:04:06.513] [exthost] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":false,"extensionId":{"value":"felixfbecker.php-intellisense","_lower":"felixfbecker.php-intellisense"},"activationEvent":"onLanguage:php"}
+[2020-06-12 10:04:06.513] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/out/extension
+[2020-06-12 10:04:09.708] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-06-12 10:04:09.708] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-06-12 10:04:09.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-06-12 10:04:09.767] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-06-12 10:04:09.794] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-06-12 10:04:09.794] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/git/dist/main
+[2020-06-12 10:04:09.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-06-12 10:04:09.855] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-06-12 10:04:09.878] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-06-12 10:04:09.878] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-06-12 10:04:09.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":true,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"*"}
+[2020-06-12 10:04:09.907] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-06-12 10:04:09.927] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-06-12 10:04:09.927] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-06-12 10:04:09.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-06-12 10:04:09.963] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/npm/dist/main
+[2020-06-12 10:04:11.051] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-06-12 10:04:11.051] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-06-12 10:04:11.714] [exthost] [info] eager extensions activated
+[2020-06-12 11:36:47.635] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-06-12 11:36:47.892] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-12 11:42:57.814] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-06-12 11:42:57.815] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-12 11:46:07.687] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-06-12 11:46:07.688] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-12 13:09:05.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-06-12 13:09:05.271] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/configuration-editing/dist/extension
+[2020-06-12 13:09:05.503] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-06-12 13:09:05.504] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-06-12 13:09:05.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-06-12 13:09:05.651] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/34/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-06-12 13:34:50.938] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-06-12 13:34:50.946] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-06-12 18:09:30.215] [exthost] [error] [felixfbecker.php-intellisense] provider FAILED
+[2020-06-12 18:09:30.570] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/snap/code/34/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62

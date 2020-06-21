@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +14,34 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use Illuminate\Http\Request;
+Route::get('/', "HomeController@index");
 
-Route::get('/', 'TaskControler@show');
+Auth::routes();
 
-Route::post('/task', 'TaskControler@createTask');
+Route::get('/home', function() {
+    return view('home');
+})->name('home');
 
-Route::delete('/task/{task}', 'TaskControler@deleteTask');
+
+Route::get('/questions/add', [
+	'uses' => 'QuestionController@addGet',
+	'as' => 'question.add'
+]);
+
+Route::post('/questions/add', 'QuestionController@addPost');
+
+Route::post('/questions/edit', 'QuestionController@edit')->name('edit');
+
+Route::get('/questions/search', 'QuestionController@search');
+
+Route::get('/questions/{id}', "QuestionController@show");
+
+Route::post('/questions/{id}', "AnswerController@add")->name('answer.add');
+
+Route::post('questions/{id}/chooseAnswer', [
+	'uses' => "AnswerController@choose",
+	'as' => 'answer.choose'
+]);
+
+// filter questions by subjects ans chosen answer
+Route::post('/', 'HomeController@filter');

@@ -21,6 +21,10 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+
+            /* кол-во балов пользователя,
+            которые он может использовать для задавания вопросов */
+            $table->integer('points')->default('1000');
         });
     }
 

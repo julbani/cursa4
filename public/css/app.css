@@ -1,0 +1,652 @@
+.choose-answer-btn {
+	width: 50px;
+	height: 50px;
+	background-image: url('/img/star.png');
+	background-size: contain;
+}
+
+.choose-answer-btn.active {
+	width: 50px;
+	height: 50px;
+	background-image: url('/img/chosen.png');
+	background-size: contain;
+}
+
+.choose-answer-btn:hover {
+	width: 50px;
+	height: 50px;
+	background-image: url('/img/chosen.png');
+	background-size: contain;
+}
+
+.active {
+	background-color: red;
+}
+
+.nav-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	margin: 0 10px;
+}
+
+body {
+  background: #4F345A;
+  width: 100vw;
+}
+
+.logo{
+  width: 15vw;
+}
+
+.up a{
+  font-size: 2.5vw;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.head h1{
+  font-size: 2.5vw;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.btn1{
+  text-decoration: none;
+  color: #000000;
+  font-size: 2.5vw;
+  background: #FFFFFF;
+  width: 36vw;
+  height: 6.5vw;
+  padding: 1.7vw 5vw;
+  border-radius: 50px;
+}
+
+.ser_ic{
+  width: 4.3vw;
+  height: 4.3vw;
+}
+
+.search-container {
+	position: relative;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.ser_ic_1{
+  width: 1.8vw;
+  height: 1.8vw;
+  position: absolute;
+  left: 15px;
+  margin: auto;
+}
+
+.int{
+  width: 6.8vw;
+  height: 5.8vw;
+}
+
+.phyz{
+  width: 6.1vw;
+  height: 6.1vw;
+}
+
+.home_main{
+  color: #000000;
+  background: #EAF9D9; 
+  width: 100vw;
+}
+
+.home_main h1{
+  font-size: 3vw;
+}
+
+.home_main h3{
+  font-size: 2vw;
+}
+
+.btn1_bord{
+  border: 0.2vw solid #8B1E3F;
+}
+
+.pop h2{
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.pop p{
+  font-size: 2vw;
+}
+
+.user img{
+  width: 5vw;
+  height: 5vw;
+}
+
+.user h2{
+  font-size: 2.25vw;
+  font-weight: bold;
+}
+
+.zadach{
+  width: 32.5vw;
+  height: 25vw;
+  border: 0.2vw solid #8B1E3F;
+}
+
+.zadach h3{
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.zadach h5{
+  font-size: 1.25vw;
+  text-align: right;
+}
+
+.zadach p{
+  font-size: 1.25vw;
+}
+
+.strel img{
+  width: 2.6vw;
+  height: 2.6vw;
+}
+
+.strel h5{
+  display: inline;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.feed_tit h2{
+  font-size: 3.6vw;
+  font-weight: bold;
+}
+
+
+.feed{
+  width: 52.5vw;
+  height: 35vw;
+  border: 0.2vw solid #8B1E3F;
+}
+
+.img_i{
+  width: 5.2vw;
+  height: 5.2vw;
+}
+
+.feed p{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.star{
+  width: 4.2vw;
+  height: 4.2vw;
+}
+
+.footer{
+  color: #FFFFFF;
+}
+
+.footer h2{
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.footer p{
+  font-size: 2vw;
+}
+
+.social{
+  width: 3vw;
+  height: 3vw;
+}
+
+.dod{
+  width: 10.4vw;
+  height: 2.8vw;
+}
+
+.line{
+  display: none;
+}
+
+.st2{
+  width: 8vw;
+  height: 8vw;
+}
+
+.stars{
+  display: none;
+}
+
+.users{
+  display: none;
+}
+
+
+.loz{
+  font-size: 3vw;
+  color: #FFFFFF;
+}
+
+.ent_f{
+  width: 35vw;
+  height: 48vw;
+  background: #FFFFFF;
+  border-radius: 4vw;
+}
+
+.ent_f h2{
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.reg{
+  color: #6B90F1;
+  font-size: 1.5vw;
+  text-decoration: none;
+  height: 2.5vw;
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.spec{
+  width: 19vw;
+  height: 3vw;
+}
+
+.non{
+  font-size: 1.25vw;
+  font-weight: bold;
+}
+
+.btn{
+  background: #FFFFFF;
+  width: 19vw;
+  height: 4vw;
+  border-radius: 5vw;
+  border: 0.5vw solid black;
+  text-align: center;
+  color: black;
+  font-size: 1.25vw;
+}
+
+.btn1_1{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5vw;
+  background: #FFFFFF;
+  width: 20vw;
+  padding: 5px 0px 5px 40px;
+  border-radius: 50px;
+}
+
+.btn2{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5vw;
+  font-weight: bold;
+  background: #C85F5F;
+  width: 20vw;
+  padding: 5px 0px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.btn2:hover {
+	text-decoration: none;
+}
+
+.btn3{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5vw;
+  background: #FFFFFF;
+  width: 36vw;
+  height: 6.5vw;
+  padding: 1vw 5vw;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.f_t{
+  width: 64vw;
+  height: 55vw;
+  background: #FFFFFF;
+  border-radius: 3vw;
+}
+
+.f_t_1{
+  width: 64vw;
+  height: 17.7vw;
+  background: #FFFFFF;
+  border-radius: 3vw;
+}
+
+.prof{
+  width: 25.5vw;
+  height: 30.7vw;
+  background: #FFFFFF;
+  border-radius: 1vw;
+}
+
+.prof_1{
+  height: 39vw;
+}
+
+.user_1 h2{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.user_1 img{
+  width: 5.2vw;
+  height: 5.2vw;
+}
+
+.task_1 img{
+  width: 15.6vw;
+  height: 22.6vw;
+}
+
+.task_1 h4{
+  font-size: 1.5vw;
+}
+
+.prof h3{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.btn4{
+  text-decoration: none;
+  color: #000000;
+  font-size: 2vw;
+  width: 36vw;
+  height: 6.5vw;
+  padding: 1vw 3vw;
+  border-radius: 50px;
+  font-weight: bold;
+  border: 1vw solid #954444;
+  margin: 0 auto;
+}
+
+.prof_link{
+  display: none;
+}
+
+.btn_m2{
+  display:none;
+}
+
+.more{
+  display: none;
+}
+
+.answ{
+  font-weight: bold;
+}
+
+.st{
+  width: 3.6vw;
+  height: 3.6vw;
+}
+
+.q_form{
+  width: 85vw;
+  height: 60vw;
+  background: #FFFFFF;
+  border-radius: 2vw;
+}
+
+.q_form h1{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.q_form img{
+  width: 4.1vw;
+  height: 3.4vw;
+}
+
+.q_form h4{
+  font-size: 1.5vw;
+}
+
+.bord{
+  border: 0.3vw solid black;
+}
+
+.bord img{
+  width: 1.7vw;
+  height: 1.25vw;
+}
+
+.maks h2{
+  color: #FFFFFF;
+}
+
+@media (max-width: 576px){
+  .phyz, .fiz{
+    display: none;
+  }
+
+  .line{
+    display: block;
+    width: 100vw;
+    height: 0.8vw;
+  }
+
+  .pop_sm{
+    display: none;
+  }
+  .strel{
+    display: none;
+  }
+  .zadach{
+    width: 70vw;
+    height: 44vw;
+  }
+  .zadach h3{
+    font-size: 3.2vw;    
+  }
+  .zadach p{
+    font-size: 2vw;    
+  }
+  .feed{
+    border: none;
+  }
+  .feed p{
+    font-size: 3vw;
+  }
+  /*.feed p{
+    display: none;
+  }
+  .feed .img_i{
+    display: none;
+  }*/
+  .stars{
+    display: block;
+  }
+  .stars img{
+    width: 5.3vw;
+    height: 5.3vw;
+  }
+  .star{
+    display: none;
+  }
+  .feed .img_i{
+    display: none;
+  }
+  .iv{
+    display: none;
+  }
+  .users{
+    display: block;
+  }
+  .small_star{
+    width: 2vw;
+    height: 2vw;
+  }
+  .main_us{
+    width: 13.3vw;
+    height: 13.3vw;
+  }
+  .wel{
+    font-size: 3.5vw;
+  }
+  .qus{
+    display: none;
+  }
+  .dodat{
+    display: none;
+  }
+  .soc{
+    font-size: 5vw;
+  }
+  .loz{
+    display: none;
+  }
+  .ent_f{
+    width: 93vw;
+    height: 138vw;
+  }
+  .ent_f h2{
+    font-size: 5.3vw;
+  }
+
+  .reg, .non{
+    font-size: 4vw;
+  }
+
+  .spec{
+  width: 66.7vw;
+  height: 11vw;
+  }
+
+  .btn{
+  width: 60vw;
+  height: 10vw;
+  font-size: 4vw;
+  }
+
+  .n_look{
+    display: none;
+  }
+
+  .prof_link{
+    display: block;
+  }
+  .prof_link img{
+    width: 13.3vw;
+    height: 13.3vw
+  }
+  .btn_m2{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 3.7vw;
+    background: #C85F5F;
+    width: 53.3vw;
+    height: 8vw;
+    padding: 1vw 5vw;
+    border-radius: 50px;
+  }
+  .prof{
+    display: none;
+  }
+  .f_t{
+    width: 90vw;
+    height: 150vw;
+  }
+
+  .user_1 img{
+    width: 9.3vw;
+    height: 9.3vw;
+  }
+
+  .user_1 h2, .task_1 h4{
+    font-size: 3.5vw;
+  }
+  
+  .task_1 img{
+    width: 77vw;
+    height: 91vw;
+  }
+  .btn3, .btn1_1{
+    font-size: 3.5vw;
+  }
+  .f_t_1{
+    width: 90vw;
+    height: 45vw;
+  }
+  .more{
+    display: block;
+  }
+  .n_sm_look{
+    display: none;
+  }
+
+  .maks h2{
+    font-size: 3.2vw;
+  }
+
+  .q_form h1{
+    font-size: 4.3vw;
+  }
+  .q_form img{
+    width: 7vw;
+    height: 7vw;
+  }
+  .q_form h4{
+    font-size: 3.5vw;
+  }
+  .btn3{
+    font-size: 3.5vw;    
+  }
+  
+  .q_form a img{
+    width: 4vw;
+    height: 3.3vw;
+  }
+  .btn2{
+    font-size: 3.2vw;
+  }
+}
+
+@media (max-width: 900px){
+  .q_form{
+    height: 80vw;
+  }
+}
+
+@media (max-width: 650px){
+  .q_form{
+    height: 220vw;
+  }
+}

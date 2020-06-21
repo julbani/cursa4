@@ -1,0 +1,260 @@
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 10:04:20 AM] 6003 files total
+[Info  - 10:04:22 AM] Indexing project for definitions and static references
+Parsing file:///var/www/laravel/tests/Feature/ExampleTest.php
+Parsing file:///var/www/laravel/tests/CreatesApplication.php
+Parsing file:///var/www/laravel/tests/TestCase.php
+Parsing file:///var/www/laravel/tests/Unit/ExampleTest.php
+Parsing file:///var/www/laravel/public/index.php
+Parsing file:///var/www/laravel/bootstrap/cache/packages.php
+Parsing file:///var/www/laravel/bootstrap/cache/services.php
+Parsing file:///var/www/laravel/bootstrap/app.php
+Parsing file:///var/www/laravel/resources/views/layouts/app.blade.php
+Parsing file:///var/www/laravel/resources/views/tasks.blade.php
+Parsing file:///var/www/laravel/resources/views/welcome.blade.php
+Parsing file:///var/www/laravel/resources/views/errors.blade.php
+Parsing file:///var/www/laravel/resources/lang/en/validation.php
+Parsing file:///var/www/laravel/resources/lang/en/pagination.php
+Parsing file:///var/www/laravel/resources/lang/en/auth.php
+Parsing file:///var/www/laravel/resources/lang/en/passwords.php
+Parsing file:///var/www/laravel/app/User.php
+Parsing file:///var/www/laravel/app/Exceptions/Handler.php
+Parsing file:///var/www/laravel/app/Task.php
+Parsing file:///var/www/laravel/app/Providers/AuthServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/AppServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/BroadcastServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/EventServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/RouteServiceProvider.php
+Parsing file:///var/www/laravel/app/Http/Kernel.php
+Parsing file:///var/www/laravel/app/Http/Middleware/Authenticate.php
+Parsing file:///var/www/laravel/app/Http/Middleware/TrustHosts.php
+Parsing file:///var/www/laravel/app/Http/Middleware/VerifyCsrfToken.php
+Parsing file:///var/www/laravel/app/Http/Middleware/RedirectIfAuthenticated.php
+Parsing file:///var/www/laravel/app/Http/Middleware/CheckForMaintenanceMode.php
+Parsing file:///var/www/laravel/app/Http/Middleware/TrustProxies.php
+Parsing file:///var/www/laravel/app/Http/Middleware/EncryptCookies.php
+Parsing file:///var/www/laravel/app/Http/Middleware/TrimStrings.php
+Parsing file:///var/www/laravel/app/Http/Controllers/Controller.php
+Parsing file:///var/www/laravel/app/Console/Kernel.php
+Parsing file:///var/www/laravel/server.php
+Parsing file:///var/www/laravel/routes/api.php
+Parsing file:///var/www/laravel/routes/console.php
+Parsing file:///var/www/laravel/routes/web.php
+Parsing file:///var/www/laravel/routes/channels.php
+Parsing file:///var/www/laravel/config/database.php
+Parsing file:///var/www/laravel/config/mail.php
+Parsing file:///var/www/laravel/config/session.php
+Parsing file:///var/www/laravel/config/logging.php
+Parsing file:///var/www/laravel/config/broadcasting.php
+Parsing file:///var/www/laravel/config/view.php
+Parsing file:///var/www/laravel/config/filesystems.php
+Parsing file:///var/www/laravel/config/auth.php
+Parsing file:///var/www/laravel/config/cors.php
+Parsing file:///var/www/laravel/config/hashing.php
+Parsing file:///var/www/laravel/config/cache.php
+Parsing file:///var/www/laravel/config/services.php
+Parsing file:///var/www/laravel/config/queue.php
+Parsing file:///var/www/laravel/config/app.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_classmap.php
+[Info  - 10:04:23 AM] Ignoring file file:///var/www/laravel/vendor/composer/autoload_classmap.php because it exceeds size limit of 150000 bytes (538218)
+Parsing file:///var/www/laravel/vendor/composer/ClassLoader.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_psr4.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_static.php
+[Info  - 10:04:24 AM] Ignoring file file:///var/www/laravel/vendor/composer/autoload_static.php because it exceeds size limit of 150000 bytes (594422)
+Parsing file:///var/www/laravel/vendor/composer/autoload_namespaces.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_real.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_files.php
+Parsing file:///var/www/laravel/vendor/autoload.php
+Parsing file:///var/www/laravel/storage/framework/views/f815bb1d1548d92421513e1f400e47bb303ef9bb.php
+Parsing file:///var/www/laravel/storage/framework/views/a2d325ca8e226693a6a964dfee31b2568513a219.php
+Parsing file:///var/www/laravel/storage/framework/views/aa8ddd6a4daca089a60f474289639fbac5b2f8fb.php
+Parsing file:///var/www/laravel/storage/framework/views/b48d818842818f85824c647289655da829fcf576.php
+Parsing file:///var/www/laravel/storage/framework/views/24f4512b760336fe6f663d547ab4b08077451f92.php
+Parsing file:///var/www/laravel/storage/framework/views/e637ab3c7a1ac77673fcb6c9f363012d6d1deef6.php
+Parsing file:///var/www/laravel/storage/framework/views/825c31879fb53cdf7429dcf22e9cd3cecbaf3a57.php
+Parsing file:///var/www/laravel/database/factories/UserFactory.php
+Parsing file:///var/www/laravel/database/seeds/DatabaseSeeder.php
+Parsing file:///var/www/laravel/database/migrations/2020_06_11_122825_create_tasks_table.php
+Parsing file:///var/www/laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php
+Parsing file:///var/www/laravel/database/migrations/2014_10_12_000000_create_users_table.php
+Parsing file:///var/www/laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+[Info  - 10:04:24 AM] Indexing project for dynamic references
+Parsing file:///var/www/laravel/tests/Feature/ExampleTest.php
+Parsing file:///var/www/laravel/tests/CreatesApplication.php
+Parsing file:///var/www/laravel/tests/TestCase.php
+Parsing file:///var/www/laravel/tests/Unit/ExampleTest.php
+Parsing file:///var/www/laravel/public/index.php
+Parsing file:///var/www/laravel/bootstrap/cache/packages.php
+Parsing file:///var/www/laravel/bootstrap/cache/services.php
+Parsing file:///var/www/laravel/bootstrap/app.php
+Parsing file:///var/www/laravel/resources/views/layouts/app.blade.php
+Parsing file:///var/www/laravel/resources/views/tasks.blade.php
+Parsing file:///var/www/laravel/resources/views/welcome.blade.php
+Parsing file:///var/www/laravel/resources/views/errors.blade.php
+Parsing file:///var/www/laravel/resources/lang/en/validation.php
+Parsing file:///var/www/laravel/resources/lang/en/pagination.php
+Parsing file:///var/www/laravel/resources/lang/en/auth.php
+Parsing file:///var/www/laravel/resources/lang/en/passwords.php
+Parsing file:///var/www/laravel/app/User.php
+Parsing file:///var/www/laravel/app/Exceptions/Handler.php
+Parsing file:///var/www/laravel/app/Task.php
+Parsing file:///var/www/laravel/app/Providers/AuthServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/AppServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/BroadcastServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/EventServiceProvider.php
+Parsing file:///var/www/laravel/app/Providers/RouteServiceProvider.php
+Parsing file:///var/www/laravel/app/Http/Kernel.php
+Parsing file:///var/www/laravel/app/Http/Middleware/Authenticate.php
+Parsing file:///var/www/laravel/app/Http/Middleware/TrustHosts.php
+Parsing file:///var/www/laravel/app/Http/Middleware/VerifyCsrfToken.php
+Parsing file:///var/www/laravel/app/Http/Middleware/RedirectIfAuthenticated.php
+Parsing file:///var/www/laravel/app/Http/Middleware/CheckForMaintenanceMode.php
+Parsing file:///var/www/laravel/app/Http/Middleware/TrustProxies.php
+Parsing file:///var/www/laravel/app/Http/Middleware/EncryptCookies.php
+Parsing file:///var/www/laravel/app/Http/Middleware/TrimStrings.php
+Parsing file:///var/www/laravel/app/Http/Controllers/Controller.php
+Parsing file:///var/www/laravel/app/Console/Kernel.php
+Parsing file:///var/www/laravel/server.php
+Parsing file:///var/www/laravel/routes/api.php
+Parsing file:///var/www/laravel/routes/console.php
+Parsing file:///var/www/laravel/routes/web.php
+Parsing file:///var/www/laravel/routes/channels.php
+Parsing file:///var/www/laravel/config/database.php
+Parsing file:///var/www/laravel/config/mail.php
+Parsing file:///var/www/laravel/config/session.php
+Parsing file:///var/www/laravel/config/logging.php
+Parsing file:///var/www/laravel/config/broadcasting.php
+Parsing file:///var/www/laravel/config/view.php
+Parsing file:///var/www/laravel/config/filesystems.php
+Parsing file:///var/www/laravel/config/auth.php
+Parsing file:///var/www/laravel/config/cors.php
+Parsing file:///var/www/laravel/config/hashing.php
+Parsing file:///var/www/laravel/config/cache.php
+Parsing file:///var/www/laravel/config/services.php
+Parsing file:///var/www/laravel/config/queue.php
+Parsing file:///var/www/laravel/config/app.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_classmap.php
+[Info  - 10:04:24 AM] Ignoring file file:///var/www/laravel/vendor/composer/autoload_classmap.php because it exceeds size limit of 150000 bytes (538218)
+Parsing file:///var/www/laravel/vendor/composer/ClassLoader.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_psr4.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_static.php
+[Info  - 10:04:25 AM] Ignoring file file:///var/www/laravel/vendor/composer/autoload_static.php because it exceeds size limit of 150000 bytes (594422)
+Parsing file:///var/www/laravel/vendor/composer/autoload_namespaces.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_real.php
+Parsing file:///var/www/laravel/vendor/composer/autoload_files.php
+Parsing file:///var/www/laravel/vendor/autoload.php
+Parsing file:///var/www/laravel/storage/framework/views/f815bb1d1548d92421513e1f400e47bb303ef9bb.php
+Parsing file:///var/www/laravel/storage/framework/views/a2d325ca8e226693a6a964dfee31b2568513a219.php
+Parsing file:///var/www/laravel/storage/framework/views/aa8ddd6a4daca089a60f474289639fbac5b2f8fb.php
+Parsing file:///var/www/laravel/storage/framework/views/b48d818842818f85824c647289655da829fcf576.php
+Parsing file:///var/www/laravel/storage/framework/views/24f4512b760336fe6f663d547ab4b08077451f92.php
+Parsing file:///var/www/laravel/storage/framework/views/e637ab3c7a1ac77673fcb6c9f363012d6d1deef6.php
+Parsing file:///var/www/laravel/storage/framework/views/825c31879fb53cdf7429dcf22e9cd3cecbaf3a57.php
+Parsing file:///var/www/laravel/database/factories/UserFactory.php
+Parsing file:///var/www/laravel/database/seeds/DatabaseSeeder.php
+Parsing file:///var/www/laravel/database/migrations/2020_06_11_122825_create_tasks_table.php
+Parsing file:///var/www/laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php
+Parsing file:///var/www/laravel/database/migrations/2014_10_12_000000_create_users_table.php
+Parsing file:///var/www/laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+[Info  - 10:04:25 AM] 97 Packages
+[Info  - 10:04:25 AM] Restored facade/ignition:2.0.7 from cache
+[Info  - 10:04:25 AM] Restored facade/flare-client-php:1.3.2 from cache
+[Info  - 10:04:25 AM] Restored facade/ignition-contracts:1.0.0 from cache
+[Info  - 10:04:25 AM] Restored phpdocumentor/type-resolver:1.1.0 from cache
+[Info  - 10:04:25 AM] Restored phpdocumentor/reflection-common:2.1.0 from cache
+[Info  - 10:04:25 AM] Restored phpdocumentor/reflection-docblock:5.1.0 from cache
+[Info  - 10:04:25 AM] Restored tijsverkoyen/css-to-inline-styles:2.2.2 from cache
+[Info  - 10:04:25 AM] Restored webmozart/assert:1.8.0 from cache
+[Info  - 10:04:25 AM] Restored dragonmantank/cron-expression:2.3.0 from cache
+[Info  - 10:04:25 AM] Restored vlucas/phpdotenv:4.1.7 from cache
+[Info  - 10:04:25 AM] Restored fideloper/proxy:4.3.0 from cache
+[Info  - 10:04:26 AM] Restored phpunit/php-timer:2.1.2 from cache
+[Info  - 10:04:26 AM] Restored phpunit/phpunit:8.5.5 from cache
+[Info  - 10:04:26 AM] Restored phpunit/php-token-stream:3.1.1 from cache
+[Info  - 10:04:26 AM] Restored phpunit/php-code-coverage:7.0.10 from cache
+[Info  - 10:04:26 AM] Restored phpunit/php-file-iterator:2.0.2 from cache
+[Info  - 10:04:26 AM] Restored phpunit/php-text-template:1.2.1 from cache
+[Info  - 10:04:26 AM] Restored nikic/php-parser:4.5.0 from cache
+[Info  - 10:04:26 AM] Restored doctrine/inflector:2.0.3 from cache
+[Info  - 10:04:26 AM] Restored doctrine/instantiator:1.3.1 from cache
+[Info  - 10:04:26 AM] Restored doctrine/lexer:1.2.1 from cache
+[Info  - 10:04:26 AM] Restored phpspec/prophecy:1.10.3 from cache
+[Info  - 10:04:26 AM] Restored phar-io/version:2.0.1 from cache
+[Info  - 10:04:27 AM] Restored phar-io/manifest:1.0.3 from cache
+[Info  - 10:04:27 AM] Restored swiftmailer/swiftmailer:6.2.3 from cache
+[Info  - 10:04:27 AM] Restored filp/whoops:2.7.2 from cache
+[Info  - 10:04:28 AM] Restored league/flysystem:1.0.69 from cache
+[Info  - 10:04:28 AM] Restored league/commonmark:1.4.3 from cache
+[Info  - 10:04:28 AM] Restored egulias/email-validator:2.1.17 from cache
+[Info  - 10:04:29 AM] Restored guzzlehttp/promises:1.3.1 from cache
+[Info  - 10:04:29 AM] Restored guzzlehttp/guzzle:6.5.4 from cache
+[Info  - 10:04:29 AM] Restored guzzlehttp/psr7:1.6.1 from cache
+[Info  - 10:04:31 AM] Restored laravel/tinker:2.4.0 from cache
+[Info  - 10:04:32 AM] Restored laravel/framework:7.15.0 from cache
+[Info  - 10:04:33 AM] Restored nunomaduro/collision:4.2.0 from cache
+[Info  - 10:04:33 AM] Restored nesbot/carbon:2.35.0 from cache
+[Info  - 10:04:33 AM] Restored dnoegel/php-xdg-base-dir:0.1.1 from cache
+[Info  - 10:04:33 AM] Restored opis/closure:3.5.4 from cache
+[Info  - 10:04:34 AM] Restored voku/portable-ascii:1.5.1 from cache
+[Info  - 10:04:35 AM] Restored hamcrest/hamcrest-php:2.0.0 from cache
+[Info  - 10:04:35 AM] Restored ramsey/collection:1.0.1 from cache
+[Info  - 10:04:36 AM] Restored ramsey/uuid:4.0.1 from cache
+[Info  - 10:04:36 AM] Restored psy/psysh:0.10.4 from cache
+[Info  - 10:04:36 AM] Restored phpoption/phpoption:1.7.4 from cache
+[Info  - 10:04:36 AM] Restored theseer/tokenizer:1.1.3 from cache
+[Info  - 10:04:36 AM] Restored monolog/monolog:2.1.0 from cache
+[Info  - 10:04:36 AM] Restored asm89/stack-cors:1.3.0 from cache
+[Info  - 10:04:36 AM] Restored brick/math:0.8.15 from cache
+[Info  - 10:04:36 AM] Restored sebastian/version:2.0.1 from cache
+[Info  - 10:04:36 AM] Restored sebastian/object-reflector:1.1.1 from cache
+[Info  - 10:04:36 AM] Restored sebastian/environment:4.2.3 from cache
+[Info  - 10:04:36 AM] Restored sebastian/exporter:3.1.2 from cache
+[Info  - 10:04:36 AM] Restored sebastian/resource-operations:2.0.1 from cache
+[Info  - 10:04:36 AM] Restored sebastian/object-enumerator:3.0.3 from cache
+[Info  - 10:04:37 AM] Restored sebastian/type:1.1.3 from cache
+[Info  - 10:04:37 AM] Restored sebastian/global-state:3.0.0 from cache
+[Info  - 10:04:37 AM] Restored sebastian/code-unit-reverse-lookup:1.0.1 from cache
+[Info  - 10:04:37 AM] Restored sebastian/comparator:3.0.2 from cache
+[Info  - 10:04:37 AM] Restored sebastian/recursion-context:3.0.0 from cache
+[Info  - 10:04:37 AM] Restored sebastian/diff:3.0.2 from cache
+[Info  - 10:04:37 AM] Restored myclabs/deep-copy:1.9.5 from cache
+[Info  - 10:04:37 AM] Restored psr/http-message:1.0.1 from cache
+[Info  - 10:04:37 AM] Restored psr/log:1.1.3 from cache
+[Info  - 10:04:37 AM] Restored psr/simple-cache:1.0.1 from cache
+[Info  - 10:04:37 AM] Restored psr/container:1.0.0 from cache
+[Info  - 10:04:37 AM] Restored psr/event-dispatcher:1.0.0 from cache
+[Info  - 10:04:37 AM] Restored scrivo/highlight.php:9.18.1.1 from cache
+[Info  - 10:04:37 AM] Restored mockery/mockery:1.4.0 from cache
+[Info  - 10:04:37 AM] Restored ralouphie/getallheaders:3.0.3 from cache
+[Info  - 10:04:38 AM] Restored fruitcake/laravel-cors:1.0.6 from cache
+[Info  - 10:04:38 AM] Restored fzaninotto/faker:1.9.1 from cache
+[Info  - 10:04:38 AM] Restored symfony/string:5.1.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/translation-contracts:2.1.2 from cache
+[Info  - 10:04:39 AM] Restored symfony/mime:5.1.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/routing:5.1.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/polyfill-iconv:1.17.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/console:5.1.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/polyfill-ctype:1.17.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/http-foundation:5.1.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/polyfill-intl-idn:1.17.0 from cache
+[Info  - 10:04:39 AM] Restored symfony/finder:5.1.0 from cache
+[Info  - 10:04:40 AM] Restored symfony/polyfill-php72:1.17.0 from cache
+[Info  - 10:04:40 AM] Restored symfony/css-selector:5.1.0 from cache
+[Info  - 10:04:40 AM] Restored symfony/process:5.1.0 from cache
+[Info  - 10:04:40 AM] Restored symfony/polyfill-php80:1.17.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/event-dispatcher-contracts:2.1.2 from cache
+[Info  - 10:04:41 AM] Restored symfony/translation:5.1.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/http-kernel:5.1.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/polyfill-mbstring:1.17.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/error-handler:5.1.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/deprecation-contracts:2.1.2 from cache
+[Info  - 10:04:41 AM] Restored symfony/event-dispatcher:5.1.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/polyfill-php73:1.17.0 from cache
+[Info  - 10:04:41 AM] Restored symfony/polyfill-intl-normalizer:1.17.0 from cache
+[Info  - 10:04:42 AM] Restored symfony/service-contracts:2.1.2 from cache
+[Info  - 10:04:42 AM] Restored symfony/var-dumper:5.1.0 from cache
+[Info  - 10:04:42 AM] Restored symfony/polyfill-intl-grapheme:1.17.0 from cache
+[Info  - 10:04:42 AM] All 6003 PHP files parsed in 21 seconds. 449 MiB allocated.

@@ -3,6 +3,8 @@
     "files.autoSave": "afterDelay",
     "emmet.preferences": {
 
+    
+
         "format.forceIndentationForTags": [
             "body",
             "div",
@@ -16,9 +18,16 @@
             "ol",
             "section",
             "footer",
-            "form"
+            "form",
+            "script"
         ]
     },
     "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "[json]": {
+    
+    },
+
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.multiCursorModifier": "ctrlCmd"
 }
