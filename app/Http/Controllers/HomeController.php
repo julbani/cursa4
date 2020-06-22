@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use DB;
+
 class HomeController extends Controller
 {
     /**
@@ -29,15 +31,11 @@ class HomeController extends Controller
     }
 
     public function filter(Request $request) {
-        $questions = \App\Question::whereIn('subject_id', $request->subjects);
 
-        if ($request->is_solved == 'solved') {
-            return 'jepa';
-            $questions = $questions->whereNotNull('chosen_answer');
-        } else if ($request->is_solved == 'not_solved') {
-            return 'jepa';
-            $questions = $questions->whereNull('chosen_answer');
-        }
+        if ($request->subjects)
+            $questions = \App\Question::whereIn('subject_id', $request->subjects);
+        else
+            $questions = new \App\Question;
 
         $questions = $questions->get();
 
@@ -46,3 +44,12 @@ class HomeController extends Controller
         return view('index', compact('questions'), compact('subjects'));
     }
 }
+
+
+
+        // if ($request->is_solved == 'solved') {
+        //     $questions = $questions->select('questions.id', 'questions.title', 'questions.content', 'questions.created_at', 'questions.user_id', 'questions.subject_id', 'questions.points', 'answers.is_chosen')->join('answers', 'questions.id', '=', 'answers.question_id')->where('answers.is_chosen', '=', '1');
+        // } else if ($request->is_solved == 'not_solved') {
+        //     $questions = $questions->select('questions.id', 'questions.title', 'questions.content', 'questions.created_at', 'questions.user_id', 'questions.subject_id', 'questions.points', 'answers.is_chosen')->join('answers', 'questions.id', '=', 'answers.question_id')->where('answers.is_chosen', '=', '0');
+        // }
+

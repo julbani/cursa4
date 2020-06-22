@@ -7,19 +7,18 @@
             <div class="col-sm-8 col-12">
                 <div class="f_t mt-4">
                     <div class="user_1 pt-3 pl-3">
+                        <img src="{{ asset('images/'.$question->author->photo) }}" alt="" class="user-img">
                         <h2 class="pt-1">{{ $question->author->name }}</h2>
                         <h2 align="right" class="mr-3">{{ date("Y-m-d",strtotime($question->created_at)) }}</h2>
                     </div>
-                    <div class="task_1 pt-4 pl-3 text-center">
-                            <div class="edit-wrapper" style="display:none;">
-                                <form>
-                                    <label for="edited-title">Заголовок</label>
-                                    <input type="text" name="title" id="edited-title">
-                                    <label for="edited-content">Вміст</label>
-                                    <textarea name="content" id="edited-content"></textarea>
-                                </form>
-                                <button class="btn btn-success save-changes-btn">Зберегти Зміни</button>
-                            </div>
+                    <div class="task_1 pt-4 pl-3 text-center" data-question-id="{{ $question->id }}">
+                        <div class="edit-wrapper" style="display:none;">
+                            <label for="edited-title">Заголовок</label>
+                            <input type="text" name="title" id="edited-title">
+                            <label for="edited-content">Вміст</label>
+                            <textarea name="content" id="edited-content"></textarea>
+                            <button class="btn btn-success save-changes-btn">Зберегти Зміни</button>
+                        </div>
 
                         <h4 class="mt-3 mb-5 question-title">{{ $question->title }}</h4>
                         <h4 class="mt-3 mb-5 question-content">{{ $question->content}}</h4>
@@ -45,8 +44,9 @@
 
                 @foreach($answers->get() as $answer)
                 <div class="answer-container f_t_1 mt-3 n_sm_look" data-answer-id="{{ $answer->id }}" data-points="{{ $question->points }}">
-
+                    
                     <div class="user_1 pt-3 pl-3">
+                        <img src="{{ asset('images/'.$answer->author->photo) }}" alt="" class="user-img">
                         <h2 class="pt-1 pb-2">{{ $answer->author->name }}</h2>
                     </div>
                     <div class="task_1 pt-5 pl-3">

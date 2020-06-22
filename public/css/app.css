@@ -23,6 +23,29 @@
 	background-color: red;
 }
 
+.modal-btn {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  outline: none;
+  background-size: cover;
+  padding: 0;
+}
+
+.modal-btn:focus {
+  outline: none;
+}
+
+.modal-btn:hover {
+  border: 2px solid red;
+}
+
+img.user-img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
 .nav-item {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -584,7 +607,7 @@ body {
     width: 90vw;
     height: 150vw;
   }
-
+  
   .user_1 img{
     width: 9.3vw;
     height: 9.3vw;
@@ -649,4 +672,18 @@ body {
   .q_form{
     height: 220vw;
   }
+}
+
+div.user_1.py-3.pl-3 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: flex-start;
+  align-items: flex-start;
+}
+
+div.user_1.py-3.pl-3 > * {
+  margin: 0px 10px;
 }

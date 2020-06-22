@@ -17,11 +17,11 @@
                         <option value="{{ $subject->id }}">{{ $subject->name }}</option>
                     @endforeach
                 </select>
-                <select name="is_solved" id="" class="btn3">
+               <!--  <select name="is_solved" id="" class="btn3">
                     <option selected>Всі</option>
                     <option value="solved">Лише вирішені</option>
                     <option value="not_solved">Лише не вирішені</option>
-                </select>
+                </select> -->
                 <button type="submit" class="btn btn-success" class="filter-btn">
                     Відфільтрувати
                 </button>
@@ -32,6 +32,8 @@
 
             <div class="f_t mt-4">
                 <div class="user_1 pt-3 pl-3">
+                    <img src="{{ asset('images/'.$question->author->photo) }}" alt="" class="user-img">
+
                     <h2 class="pt-1">{{ $question->author->name }}</h2>
                     <h2 align="right" class="mr-3">Бали: {{ $question->points }}</h2>
                     <h2 align="right" class="mr-3">Опубліковано {{ date("Y-m-d",strtotime($question->created_at)) }}</h2>
@@ -57,3 +59,5 @@
 </div>
 </main>
 @endsection
+
+

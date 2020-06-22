@@ -34,6 +34,7 @@ Route::post('/questions/edit', 'QuestionController@edit')->name('edit');
 
 Route::get('/questions/search', 'QuestionController@search');
 
+
 Route::get('/questions/{id}', "QuestionController@show");
 
 Route::post('/questions/{id}', "AnswerController@add")->name('answer.add');
@@ -45,3 +46,5 @@ Route::post('questions/{id}/chooseAnswer', [
 
 // filter questions by subjects ans chosen answer
 Route::post('/', 'HomeController@filter');
+
+Route::post('image-upload', 'ImageUploadController@imageUploadPost')->name('image.upload.post');

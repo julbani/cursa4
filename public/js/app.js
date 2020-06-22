@@ -5,15 +5,15 @@ var title = $('.question-title');
 $(".edit-btn").on('click', function() {
     // move text from content and title to the edit inputs
     $('.edit-wrapper').css('display', 'block');
-    $('input#edited-title').val(title.html());
-    $('input#edited-content').val(content.html());
+    $('input#edited-title').val(title.text());
+    $('textarea#edited-content').val(content.text());
     title.css('display', 'none');
     content.css('display', 'none');
     $(this).css('display', 'none');
 });
 
 $('.save-changes-btn').on('click', function() {
-    var questionId = $('.save-changes-btn').parent().parent().data('questionid');
+    var questionId = $('.save-changes-btn').parent().parent().data('question-id');
     $.ajax({
         method: 'POST',
         url: editUrl, // editUrl located at question.blade.php
@@ -77,8 +77,3 @@ document.getElementById("answer-ref").onclick = function() {
     form.style.display = 'block';
     form.scrollIntoView({block: "center", behavior: "smooth"});
 }
-
-// $("#answer-ref").on('click', function() {
-//     $('#add-answer-form').css('display', 'block');
-//     document.getElementById("add-answer-form").scrollIntoView();
-// });
